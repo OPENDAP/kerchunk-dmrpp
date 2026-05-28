@@ -1,0 +1,123 @@
+pseudo code
+===================================================================
+                CONVERT ZARR JSON TO GEOTIFF USING KERCHUNK
+import fsspec
+import rioxarray
+import xarray as xr
+
+# 1. Load the data using the Kerchunk JSON file
+# Use fsspec to map the JSON reference file into a virtual file system
+fs = fsspec.filesystem("reference", fo="path_to_your_reference.json")
+mapper = fs.get_mapper("")
+
+# Open the virtual dataset as a Zarr store using Xarray
+ds = xr.open_dataset(mapper, engine="zarr", consolidated=False)
+
+        PROBLEM 1
+# 2. Select and prepare the geospatial grid
+# Replace "temperature" with your dataset's specific variable name
+raster_layer = ds["temperature"]
+
+        PROBLEM 2
+# Explicitly set the Coordinate Reference System (CRS) if missing (e.g., WGS84)
+raster_layer = raster_layer.rio.write_crs("EPSG:4326")
+
+        PROBLEM 3
+# Map your dimension names to explicit spatial dimensions (x and y)
+# If your dimensions are named 'lat' and 'lon', map them like this:
+raster_layer = raster_layer.rio.set_spatial_dims(x="lon", y="lat")
+
+        PROBLEM 4
+# If your dataset contains a time dimension, select a single slice
+# (GeoTIFFs typically handle 2D or 3D bands, not 4D time series)
+if "time" in raster_layer.dims:
+    raster_layer = raster_layer.isel(time=0)
+
+# 3. Export directly to a Cloud-Optimized GeoTIFF (COG)
+raster_layer.rio.to_raster("output_dataset.tif", driver="COG")
+
+=============================================================================
+                GET ZARR DATASET SPECIFIC VARIABLE NAME
+    OPTION 1
+import xarray as xr
+
+# Open the Zarr store
+ds = xr.open_zarr('path/to/your/dataset.zarr')
+
+# Get a list of all data variables (excluding coordinates like lat/lon)
+variable_names = list(ds.data_vars)
+print(f"Data Variables: {variable_names}")
+
+# Get a list of all variables including coordinates
+all_keys = list(ds.variables)
+print(f"All Variables: {all_keys}")
+
+                /!\ OR /!\
+
+    OPTION 2
+import zarr
+
+# Open the Zarr group
+root = zarr.open('path/to/your/dataset.zarr', mode='r')
+
+# List names of all arrays (variables) and sub-groups
+print(f"Variable/Group Names: {list(root.keys())}")
+
+# To check if a specific name is an array (a variable)
+for name in root.keys():
+    if isinstance(root[name], zarr.core.Array):
+        print(f"Found variable: {name}")
+
+=============================================================================
+                 Extracting the CRS via Python
+    OPTION 1
+import json
+import pyproj
+
+def extract_crs_from_zarr_json(json_path):
+    with open(json_path, 'r') as f:
+        meta = json.load(f)
+
+    # 1. Check for standard `.zmetadata` structures first
+    if "metadata" in meta:
+        meta = meta["metadata"]
+
+    # 2. Try Pattern A: Look inside specific grid mapping array paths
+    for key, val in meta.items():
+        if isinstance(val, dict) and ".zattrs" in val:
+            attrs = val[".zattrs"]
+            if "crs_wkt" in attrs:
+                return pyproj.CRS.from_wkt(attrs["crs_wkt"])
+            if "spatial_ref" in attrs:
+                return pyproj.CRS.from_user_input(attrs["spatial_ref"])
+
+    # 3. Try Pattern B & C: Look inside global / root `.zattrs`
+    root_attrs = meta.get(".zattrs", meta)
+
+    if "crs" in root_attrs:
+        return pyproj.CRS.from_user_input(root_attrs["crs"])
+    if "proj:epsg" in root_attrs:
+        return pyproj.CRS.from_epsg(root_attrs["proj:epsg"])
+    if "proj:wkt2" in root_attrs:
+        return pyproj.CRS.from_wkt(root_attrs["proj:wkt2"])
+
+    raise ValueError("No recognized CRS metadata found in this Zarr JSON file.")
+
+# Usage
+crs_object = extract_crs_from_zarr_json('path/to/.zmetadata')
+print(f"Name: {crs_object.name}")
+print(f"EPSG: {crs_object.to_epsg()}")
+
+                /!\ OR /!\
+
+    OPTION 2
+import xarray as xr
+import rioxarray
+
+# Rioxarray automatically scans .zattrs and sets up the .rio accessor
+ds = xr.open_zarr('path/to/your/dataset.zarr')
+crs = ds.rio.crs
+
+print(f"Resolved CRS: {crs}")
+
+==================================================================================
