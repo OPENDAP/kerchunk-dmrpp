@@ -8,6 +8,7 @@
 # /!\ profit /!\
 
 from pathlib import Path
+from xml.etree import ElementTree as ET
 import json
 
 verbose = False
@@ -31,12 +32,18 @@ def conversion_driver(input_file, output_file):
     Daily driver for the conversion progress, all fcts are called from within this fct
     :param input_file:
     :param output_file:
-    :param verbose:
     :return:
     """
     if verbose: print("Begin reading json data into memory ...")
     json_data = read_json(input_file)
     if verbose: print("Json data loaded into memory, beginning conversion ...")
+    root = create_xml_doc()
+    
+
+
+def create_xml_doc():
+    root = ET.Element('Dmrpp')
+    return root
 
 
 def read_json(input_file):
