@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="daymet_v4_swe_monavg_pr_2024.tif">
+    <Dimension name="/y" size="231"/>
+    <Dimension name="/x" size="364"/>
+    <Dimension name="/s" size="12"/>
+    <Int64 name="x">
+        <Dim name="x"/>
+        <Attribute name="long_name" type="String">
+            <Value>x coordinate of projection</Value>
+        </Attribute>
+        <Attribute name="standard_name" type="String">
+            <Value>projection_x_coordinate</Value>
+        </Attribute>
+        <Attribute name="units" type="String">
+            <Value>m</Value>
+        </Attribute>
+    </Int64>
+    <Int64 name="y">
+        <Dim name="y"/>
+        <Attribute name="long_name" type="String">
+            <Value>y coordinate of projection</Value>
+        </Attribute>
+        <Attribute name="standard_name" type="String">
+            <Value>projection_y_coordinate</Value>
+        </Attribute>
+        <Attribute name="units" type="String">
+            <Value>m</Value>
+        </Attribute>
+    </Int64>
+    <Float32 name="swe">
+        <Dim name="y"/>
+        <Dim name="x"/>
+        <Dim name="s"/>
+        <Attribute name="cell_methods" type="String">
+            <Value>area: mean time: sum within days time: mean over days</Value>
+        </Attribute>
+        <Attribute name="coordinates" type="String">
+            <Value>lat lon</Value>
+        </Attribute>
+        <Attribute name="grid_mapping" type="String">
+            <Value>lambert_conformal_conic</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>monthly average of snow water equivalent</Value>
+        </Attribute>
+        <Attribute name="missing_value" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="units" type="String">
+            <Value>mm</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+    </Float32>
+    <Float64 name="lambert_conformal_conic">
+        <Attribute name="false_easting" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="false_northing" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="grid_mapping_name" type="String">
+            <Value>lambert_conformal_conic</Value>
+        </Attribute>
+        <Attribute name="inverse_flattening" type="String">
+            <Value>298.257223563</Value>
+        </Attribute>
+        <Attribute name="latitude_of_projection_origin" type="String">
+            <Value>42.5</Value>
+        </Attribute>
+        <Attribute name="longitude_of_central_meridian" type="String">
+            <Value>-100</Value>
+        </Attribute>
+        <Attribute name="semi_major_axis" type="String">
+            <Value>6378137</Value>
+        </Attribute>
+        <Attribute name="standard_parallel" type="String">
+            <Value>{25,60}</Value>
+        </Attribute>
+    </Float64>
+    <Float64 name="time">
+        <Attribute name="bounds" type="String">
+            <Value>time_bnds</Value>
+        </Attribute>
+        <Attribute name="calendar" type="String">
+            <Value>standard</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>24-hour day based on local time</Value>
+        </Attribute>
+        <Attribute name="standard_name" type="String">
+            <Value>time</Value>
+        </Attribute>
+        <Attribute name="units" type="String">
+            <Value>days since 1950-01-01 00:00:00</Value>
+        </Attribute>
+    </Float64>
+    <Attribute name="citation" type="String">
+        <Value>Please see http://daymet.ornl.gov/ for current Daymet data citation information</Value>
+    </Attribute>
+    <Attribute name="Conventions" type="String">
+        <Value>CF-1.6</Value>
+    </Attribute>
+    <Attribute name="NCO" type="String">
+        <Value>netCDF Operators version 5.1.9 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco, Citation = 10.1016/j.envsoft.2008.03.004)</Value>
+    </Attribute>
+    <Attribute name="references" type="String">
+        <Value>Please see http://daymet.ornl.gov/ for current information on Daymet references</Value>
+    </Attribute>
+    <Attribute name="source" type="String">
+        <Value>Daymet Software Version 4.0</Value>
+    </Attribute>
+    <Attribute name="start_year" type="String">
+        <Value>2024</Value>
+    </Attribute>
+    <Attribute name="Version_data" type="String">
+        <Value>Daymet Data Version 4.0</Value>
+    </Attribute>
+    <Attribute name="Version_software" type="String">
+        <Value>Daymet Software Version 4.0</Value>
+    </Attribute>
+    <Attribute name="NETCDF_DIM_time_DEF" type="String">
+        <Value>{12,5}</Value>
+    </Attribute>
+    <Attribute name="NETCDF_DIM_time_VALUES" type="String">
+        <Value>{27043.5,27073.5,27103.5,27134,27164.5,27195,27225.5,27256.5,27287,27317.5,27348,27378}</Value>
+    </Attribute>
+    <Attribute name="cell_methods" type="String">
+        <Value>area: mean time: sum within days time: mean over days</Value>
+    </Attribute>
+    <Attribute name="coordinates" type="String">
+        <Value>lat lon</Value>
+    </Attribute>
+    <Attribute name="grid_mapping" type="String">
+        <Value>lambert_conformal_conic</Value>
+    </Attribute>
+    <Attribute name="long_name" type="String">
+        <Value>monthly average of snow water equivalent</Value>
+    </Attribute>
+    <Attribute name="missing_value" type="String">
+        <Value>-9999</Value>
+    </Attribute>
+    <Attribute name="NETCDF_DIM_time" type="String">
+        <Value>27378</Value>
+    </Attribute>
+    <Attribute name="units" type="String">
+        <Value>mm</Value>
+    </Attribute>
+    <Attribute name="_FillValue" type="String">
+        <Value>-9999</Value>
+    </Attribute>
+    <Attribute name="KeyDirectoryVersion" type="Int64">
+        <Value>1</Value>
+    </Attribute>
+    <Attribute name="KeyRevision" type="Int64">
+        <Value>1</Value>
+    </Attribute>
+    <Attribute name="KeyRevisionMinor" type="Int64">
+        <Value>0</Value>
+    </Attribute>
+    <Attribute name="GTModelTypeGeoKey" type="Int64">
+        <Value>1</Value>
+    </Attribute>
+    <Attribute name="GTRasterTypeGeoKey" type="Int64">
+        <Value>1</Value>
+    </Attribute>
+    <Attribute name="GTCitationGeoKey" type="String">
+        <Value>unnamed</Value>
+    </Attribute>
+    <Attribute name="GeographicTypeGeoKey" type="Int64">
+        <Value>32767</Value>
+    </Attribute>
+    <Attribute name="GeogCitationGeoKey" type="String">
+        <Value>GCS Name = unknown|Datum = unnamed|Ellipsoid = Spheroid|Primem = Greenwich|</Value>
+    </Attribute>
+    <Attribute name="GeogGeodeticDatumGeoKey" type="Int64">
+        <Value>32767</Value>
+    </Attribute>
+    <Attribute name="GeogAngularUnitsGeoKey" type="Int64">
+        <Value>9102</Value>
+    </Attribute>
+    <Attribute name="GeogEllipsoidGeoKey" type="Int64">
+        <Value>32767</Value>
+    </Attribute>
+    <Attribute name="GeogSemiMajorAxisGeoKey" type="Float64">
+        <Value>6378137.0</Value>
+    </Attribute>
+    <Attribute name="GeogInvFlatteningGeoKey" type="Float64">
+        <Value>298.257223563</Value>
+    </Attribute>
+    <Attribute name="GeogPrimeMeridianLongGeoKey" type="Float64">
+        <Value>0.0</Value>
+    </Attribute>
+    <Attribute name="ProjectedCSTypeGeoKey" type="Int64">
+        <Value>32767</Value>
+    </Attribute>
+    <Attribute name="ProjectionGeoKey" type="Int64">
+        <Value>32767</Value>
+    </Attribute>
+    <Attribute name="ProjCoordTransGeoKey" type="Int64">
+        <Value>8</Value>
+    </Attribute>
+    <Attribute name="ProjLinearUnitsGeoKey" type="Int64">
+        <Value>9001</Value>
+    </Attribute>
+    <Attribute name="ProjStdParallel1GeoKey" type="Float64">
+        <Value>25.0</Value>
+    </Attribute>
+    <Attribute name="ProjStdParallel2GeoKey" type="Float64">
+        <Value>60.0</Value>
+    </Attribute>
+    <Attribute name="ProjFalseOriginLongGeoKey" type="Float64">
+        <Value>-100.0</Value>
+    </Attribute>
+    <Attribute name="ProjFalseOriginLatGeoKey" type="Float64">
+        <Value>42.5</Value>
+    </Attribute>
+    <Attribute name="ProjFalseOriginEastingGeoKey" type="Float64">
+        <Value>0.0</Value>
+    </Attribute>
+    <Attribute name="ProjFalseOriginNorthingGeoKey" type="Float64">
+        <Value>0.0</Value>
+    </Attribute>
+    <Attribute name="ModelPixelScale" type="Float64">
+        <Value>1000.0</Value>
+        <Value>1000.0</Value>
+        <Value>0.0</Value>
+    </Attribute>
+    <Attribute name="ModelTiepoint" type="Float64">
+        <Value>0.0</Value>
+        <Value>0.0</Value>
+        <Value>0.0</Value>
+        <Value>3445250.0</Value>
+        <Value>-1764500.0</Value>
+        <Value>0.0</Value>
+    </Attribute>
+</Dataset>

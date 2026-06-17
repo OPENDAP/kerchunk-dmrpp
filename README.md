@@ -5,7 +5,7 @@
 
 ## To install:
  1. clone the git repository `git clone https://github.com/OPENDAP/kerchunk-dmrpp.git`
-2. create a conda/mamba env `conda create -n kerchunk_env -c conda-forge python=3.12 kerchunk fastparquet`
+2. create a conda/mamba env `conda create -n kerchunk_env -c conda-forge python=3.12 kerchunk pydap fastparquet`
 3. install additional libraries `conda install -c conda-forge fsspec ujson tifffile`
 
 ## To Run:
