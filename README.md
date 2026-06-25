@@ -11,9 +11,9 @@
 ## To Run:
 1. activate the conda/mamba env `conda activate dmrpp_tests`
 2. copy desired geotiff file into the 'input_files' directory
-3. run `python test_kerchunk.py -i input_files/'geotiff_filename_here' -o 'output_filename_here'`
+3. run `python run_kerchunk.py -i input_files/'geotiff_filename_here' -o 'output_filename_here'`
 4. Alternatively you can just provide the input filename and the script will generate an output filename automatically \
-`python test_kerchunk.py -i input_files/'geotiff_filename_here'`
+`python run_kerchunk.py -i input_files/'geotiff_filename_here'`
 
 ## To Run Notebook
 1. activate the conda/mamba env `mamba activate dmrpp_tests`
