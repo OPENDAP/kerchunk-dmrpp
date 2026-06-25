@@ -4,16 +4,21 @@
  This software is a proof of concept that a geotiff file can be converted to a json file
 
 ## To install:
- 1. clone the git repository `git clone https://github.com/OPENDAP/kerchunk-dmrpp.git`
-2. create a conda/mamba env `conda create -n kerchunk_env -c conda-forge python=3.12 kerchunk pydap fastparquet`
-3. install additional libraries `conda install -c conda-forge fsspec ujson tifffile`
+1. clone the git repository `git clone https://github.com/OPENDAP/kerchunk-dmrpp.git`
+2. create a conda/mamba env `conda env create -f environment.yml`
+3. install additional libraries `conda env update -n dmrpp_tests -c conda-forge fsspec ujson tifffile`
 
 ## To Run:
- 1. activate the conda/mamba env `conda activate kerchunk_env`
+1. activate the conda/mamba env `conda activate dmrpp_tests`
 2. copy desired geotiff file into the 'input_files' directory
 3. run `python test_kerchunk.py -i input_files/'geotiff_filename_here' -o 'output_filename_here'`
 4. Alternatively you can just provide the input filename and the script will generate an output filename automatically \
 `python test_kerchunk.py -i input_files/'geotiff_filename_here'`
+
+## To Run Notebook
+1. activate the conda/mamba env `mamba activate dmrpp_tests`
+2. Launch the jupyterlab server to run the notebook on the browser `jupyter lab`
+
 
 ## Helpful Links:
  - https://fsspec.github.io/kerchunk/

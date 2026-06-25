@@ -3,7 +3,10 @@ channels:
 - conda-forge
 dependencies:
 - netcdf4
+- python=3.12
 - virtualizarr
+- kerchunk
+- fastparquet
 - jupyterlab
 - pip
 - pip:
