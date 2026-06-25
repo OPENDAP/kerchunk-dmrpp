@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif">
+    <Group name="0">
+        <Dimension name="y" size="2326"/>
+        <Dimension name="x" size="2171"/>
+        <Float32 name="0">
+            <Dim name="/0/y"/>
+            <Dim name="/0/x"/>
+        </Float32>
+        <Attribute name="citation" type="String">
+            <Value>WGS 84 / UTM zone 11N</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32611</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>2.9</Value>
+            <Value>2.9</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>360574.992247703</Value>
+            <Value>3799093.19969418</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="Band_1" type="String">
+            <Value>Band 1</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>Band 1</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="String">
+            <Value>AAAAAICHw8A=</Value>
+        </Attribute>
+    </Group>
+    <Group name="1">
+        <Dimension name="y" size="1163"/>
+        <Dimension name="x" size="1085"/>
+        <Float32 name="1">
+            <Dim name="/1/y"/>
+            <Dim name="/1/x"/>
+        </Float32>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="String">
+            <Value>AAAAAICHw8A=</Value>
+        </Attribute>
+    </Group>
+    <Group name="2">
+        <Dimension name="y" size="581"/>
+        <Dimension name="x" size="542"/>
+        <Float32 name="2">
+            <Dim name="/2/y"/>
+            <Dim name="/2/x"/>
+        </Float32>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="String">
+            <Value>AAAAAICHw8A=</Value>
+        </Attribute>
+    </Group>
+    <Group name="3">
+        <Dimension name="y" size="290"/>
+        <Dimension name="x" size="271"/>
+        <Float32 name="3">
+            <Dim name="/3/y"/>
+            <Dim name="/3/x"/>
+        </Float32>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="String">
+            <Value>AAAAAICHw8A=</Value>
+        </Attribute>
+    </Group>
+</Dataset>

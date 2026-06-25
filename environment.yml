@@ -1,0 +1,11 @@
+name: dmrpp_tests
+channels:
+- conda-forge
+dependencies:
+- netcdf4
+- virtualizarr
+- jupyterlab
+- pip
+- pip:
+  - virtual-tiff
+  - git+https://github.com/pydap/pydap.git

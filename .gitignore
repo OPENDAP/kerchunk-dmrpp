@@ -4,3 +4,4 @@
 /input_files/ORNL_DAAC/
 
 .ipynb_checkpoints/*
+*/.ipynb_checkpoints/*
