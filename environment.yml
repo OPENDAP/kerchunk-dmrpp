@@ -8,7 +8,11 @@ dependencies:
 - kerchunk
 - fastparquet
 - jupyterlab
+- matplotlib
 - pip
 - pip:
+  - rioxarray
+  - xproj
+  - rasterix
   - virtual-tiff
   - git+https://github.com/pydap/pydap.git

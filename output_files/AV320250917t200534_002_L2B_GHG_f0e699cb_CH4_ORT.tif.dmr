@@ -64,8 +64,48 @@
             <Dim name="/1/y"/>
             <Dim name="/1/x"/>
         </Float32>
+        <Attribute name="citation" type="String">
+            <Value>WGS 84 / UTM zone 11N</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32611</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>2.9</Value>
+            <Value>2.9</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>360574.992247703</Value>
+            <Value>3799093.19969418</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
+        </Attribute>
+        <Attribute name="Band_1" type="String">
+            <Value>Band 1</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>Band 1</Value>
         </Attribute>
         <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>
@@ -81,8 +121,48 @@
             <Dim name="/2/y"/>
             <Dim name="/2/x"/>
         </Float32>
+        <Attribute name="citation" type="String">
+            <Value>WGS 84 / UTM zone 11N</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32611</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>2.9</Value>
+            <Value>2.9</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>360574.992247703</Value>
+            <Value>3799093.19969418</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
+        </Attribute>
+        <Attribute name="Band_1" type="String">
+            <Value>Band 1</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>Band 1</Value>
         </Attribute>
         <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>
@@ -98,8 +178,48 @@
             <Dim name="/3/y"/>
             <Dim name="/3/x"/>
         </Float32>
+        <Attribute name="citation" type="String">
+            <Value>WGS 84 / UTM zone 11N</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32611</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>2.9</Value>
+            <Value>2.9</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>360574.992247703</Value>
+            <Value>3799093.19969418</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
+        </Attribute>
+        <Attribute name="Band_1" type="String">
+            <Value>Band 1</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>Band 1</Value>
         </Attribute>
         <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>

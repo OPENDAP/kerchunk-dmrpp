@@ -172,13 +172,161 @@
             <Dim name="/1/y"/>
             <Dim name="/1/x"/>
         </Int16>
+        <Attribute name="citation" type="String">
+            <Value>UTM Zone 56, Northern Hemisphere</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32656</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>30.0</Value>
+            <Value>30.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>699960.0</Value>
+            <Value>500040.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
         </Attribute>
-        <Attribute name="gdal_no_data" type="String">
-            <Value>-9999</Value>
+        <Attribute name="ACCODE" type="String">
+            <Value>LaSRC v3.5.1.0</Value>
+        </Attribute>
+        <Attribute name="add_offset" type="String">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_xshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_yshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ncp" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_rmse(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_s2_refimg" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="cloud_coverage" type="String">
+            <Value>13</Value>
+        </Attribute>
+        <Attribute name="HLS_PROCESSING_TIME" type="String">
+            <Value>2026-04-21T01:07:40Z</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_NAME" type="String">
+            <Value>UTM, WGS84, UTM ZONE 56</Value>
+        </Attribute>
+        <Attribute name="L1_PROCESSING_TIME" type="String">
+            <Value>2026-04-20T00:48:26Z</Value>
+        </Attribute>
+        <Attribute name="LANDSAT_PRODUCT_ID" type="String">
+            <Value>LC09_L1TP_093057_20260419_20260420_02_T1</Value>
+        </Attribute>
+        <Attribute name="LANDSAT_SCENE_ID" type="String">
+            <Value>LC90930572026109LGN00</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>TIRS2</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_AZIMUTH_ANGLE" type="String">
+            <Value>72.3046694794268</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_ZENITH_ANGLE" type="String">
+            <Value>26.1763982866878</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_AZIMUTH_ANGLE" type="String">
+            <Value>280.390793550952</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_ZENITH_ANGLE" type="String">
+            <Value>7.50687018471978</Value>
+        </Attribute>
+        <Attribute name="NBAR_SOLAR_ZENITH" type="String">
+            <Value>24.8974946924367</Value>
+        </Attribute>
+        <Attribute name="NCOLS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="NROWS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="OVR_RESAMPLING_ALG" type="String">
+            <Value>NEAREST</Value>
+        </Attribute>
+        <Attribute name="PROCESSING_LEVEL" type="String">
+            <Value>L1TP</Value>
+        </Attribute>
+        <Attribute name="scale_factor" type="String">
+            <Value>0.01</Value>
+        </Attribute>
+        <Attribute name="SENSING_TIME" type="String">
+            <Value>2026-04-19T23:57:50.4369450Z</Value>
+        </Attribute>
+        <Attribute name="SENSOR" type="String">
+            <Value>OLI_TIRS</Value>
+        </Attribute>
+        <Attribute name="SENTINEL2_TILEID" type="String">
+            <Value>56NQK</Value>
+        </Attribute>
+        <Attribute name="spatial_coverage" type="String">
+            <Value>16</Value>
+        </Attribute>
+        <Attribute name="SPATIAL_RESOLUTION" type="String">
+            <Value>30</Value>
+        </Attribute>
+        <Attribute name="TIRS_SSM_MODEL" type="String">
+            <Value>UNKNOWN</Value>
+        </Attribute>
+        <Attribute name="TIRS_SSM_POSITION_STATUS" type="String">
+            <Value>UNKNOWN</Value>
+        </Attribute>
+        <Attribute name="ULX" type="String">
+            <Value>699960</Value>
+        </Attribute>
+        <Attribute name="ULY" type="String">
+            <Value>500040</Value>
+        </Attribute>
+        <Attribute name="unit" type="String">
+            <Value>Celsius</Value>
+        </Attribute>
+        <Attribute name="USGS_SOFTWARE" type="String">
+            <Value>LPGS_16.5.0</Value>
         </Attribute>
         <Attribute name="_FillValue" type="Int64">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="OFFSET" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="SCALE" type="String">
+            <Value>0.0100000000000000002</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>TIRS2</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>
         </Attribute>
     </Group>
@@ -189,13 +337,161 @@
             <Dim name="/2/y"/>
             <Dim name="/2/x"/>
         </Int16>
+        <Attribute name="citation" type="String">
+            <Value>UTM Zone 56, Northern Hemisphere</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32656</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>30.0</Value>
+            <Value>30.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>699960.0</Value>
+            <Value>500040.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
         </Attribute>
-        <Attribute name="gdal_no_data" type="String">
-            <Value>-9999</Value>
+        <Attribute name="ACCODE" type="String">
+            <Value>LaSRC v3.5.1.0</Value>
+        </Attribute>
+        <Attribute name="add_offset" type="String">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_xshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_yshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ncp" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_rmse(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_s2_refimg" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="cloud_coverage" type="String">
+            <Value>13</Value>
+        </Attribute>
+        <Attribute name="HLS_PROCESSING_TIME" type="String">
+            <Value>2026-04-21T01:07:40Z</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_NAME" type="String">
+            <Value>UTM, WGS84, UTM ZONE 56</Value>
+        </Attribute>
+        <Attribute name="L1_PROCESSING_TIME" type="String">
+            <Value>2026-04-20T00:48:26Z</Value>
+        </Attribute>
+        <Attribute name="LANDSAT_PRODUCT_ID" type="String">
+            <Value>LC09_L1TP_093057_20260419_20260420_02_T1</Value>
+        </Attribute>
+        <Attribute name="LANDSAT_SCENE_ID" type="String">
+            <Value>LC90930572026109LGN00</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>TIRS2</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_AZIMUTH_ANGLE" type="String">
+            <Value>72.3046694794268</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_ZENITH_ANGLE" type="String">
+            <Value>26.1763982866878</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_AZIMUTH_ANGLE" type="String">
+            <Value>280.390793550952</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_ZENITH_ANGLE" type="String">
+            <Value>7.50687018471978</Value>
+        </Attribute>
+        <Attribute name="NBAR_SOLAR_ZENITH" type="String">
+            <Value>24.8974946924367</Value>
+        </Attribute>
+        <Attribute name="NCOLS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="NROWS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="OVR_RESAMPLING_ALG" type="String">
+            <Value>NEAREST</Value>
+        </Attribute>
+        <Attribute name="PROCESSING_LEVEL" type="String">
+            <Value>L1TP</Value>
+        </Attribute>
+        <Attribute name="scale_factor" type="String">
+            <Value>0.01</Value>
+        </Attribute>
+        <Attribute name="SENSING_TIME" type="String">
+            <Value>2026-04-19T23:57:50.4369450Z</Value>
+        </Attribute>
+        <Attribute name="SENSOR" type="String">
+            <Value>OLI_TIRS</Value>
+        </Attribute>
+        <Attribute name="SENTINEL2_TILEID" type="String">
+            <Value>56NQK</Value>
+        </Attribute>
+        <Attribute name="spatial_coverage" type="String">
+            <Value>16</Value>
+        </Attribute>
+        <Attribute name="SPATIAL_RESOLUTION" type="String">
+            <Value>30</Value>
+        </Attribute>
+        <Attribute name="TIRS_SSM_MODEL" type="String">
+            <Value>UNKNOWN</Value>
+        </Attribute>
+        <Attribute name="TIRS_SSM_POSITION_STATUS" type="String">
+            <Value>UNKNOWN</Value>
+        </Attribute>
+        <Attribute name="ULX" type="String">
+            <Value>699960</Value>
+        </Attribute>
+        <Attribute name="ULY" type="String">
+            <Value>500040</Value>
+        </Attribute>
+        <Attribute name="unit" type="String">
+            <Value>Celsius</Value>
+        </Attribute>
+        <Attribute name="USGS_SOFTWARE" type="String">
+            <Value>LPGS_16.5.0</Value>
         </Attribute>
         <Attribute name="_FillValue" type="Int64">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="OFFSET" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="SCALE" type="String">
+            <Value>0.0100000000000000002</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>TIRS2</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>
         </Attribute>
     </Group>
@@ -206,13 +502,161 @@
             <Dim name="/3/y"/>
             <Dim name="/3/x"/>
         </Int16>
+        <Attribute name="citation" type="String">
+            <Value>UTM Zone 56, Northern Hemisphere</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32656</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>30.0</Value>
+            <Value>30.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>699960.0</Value>
+            <Value>500040.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
         </Attribute>
-        <Attribute name="gdal_no_data" type="String">
-            <Value>-9999</Value>
+        <Attribute name="ACCODE" type="String">
+            <Value>LaSRC v3.5.1.0</Value>
+        </Attribute>
+        <Attribute name="add_offset" type="String">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_xshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_yshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ncp" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_rmse(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_s2_refimg" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="cloud_coverage" type="String">
+            <Value>13</Value>
+        </Attribute>
+        <Attribute name="HLS_PROCESSING_TIME" type="String">
+            <Value>2026-04-21T01:07:40Z</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_NAME" type="String">
+            <Value>UTM, WGS84, UTM ZONE 56</Value>
+        </Attribute>
+        <Attribute name="L1_PROCESSING_TIME" type="String">
+            <Value>2026-04-20T00:48:26Z</Value>
+        </Attribute>
+        <Attribute name="LANDSAT_PRODUCT_ID" type="String">
+            <Value>LC09_L1TP_093057_20260419_20260420_02_T1</Value>
+        </Attribute>
+        <Attribute name="LANDSAT_SCENE_ID" type="String">
+            <Value>LC90930572026109LGN00</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>TIRS2</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_AZIMUTH_ANGLE" type="String">
+            <Value>72.3046694794268</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_ZENITH_ANGLE" type="String">
+            <Value>26.1763982866878</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_AZIMUTH_ANGLE" type="String">
+            <Value>280.390793550952</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_ZENITH_ANGLE" type="String">
+            <Value>7.50687018471978</Value>
+        </Attribute>
+        <Attribute name="NBAR_SOLAR_ZENITH" type="String">
+            <Value>24.8974946924367</Value>
+        </Attribute>
+        <Attribute name="NCOLS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="NROWS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="OVR_RESAMPLING_ALG" type="String">
+            <Value>NEAREST</Value>
+        </Attribute>
+        <Attribute name="PROCESSING_LEVEL" type="String">
+            <Value>L1TP</Value>
+        </Attribute>
+        <Attribute name="scale_factor" type="String">
+            <Value>0.01</Value>
+        </Attribute>
+        <Attribute name="SENSING_TIME" type="String">
+            <Value>2026-04-19T23:57:50.4369450Z</Value>
+        </Attribute>
+        <Attribute name="SENSOR" type="String">
+            <Value>OLI_TIRS</Value>
+        </Attribute>
+        <Attribute name="SENTINEL2_TILEID" type="String">
+            <Value>56NQK</Value>
+        </Attribute>
+        <Attribute name="spatial_coverage" type="String">
+            <Value>16</Value>
+        </Attribute>
+        <Attribute name="SPATIAL_RESOLUTION" type="String">
+            <Value>30</Value>
+        </Attribute>
+        <Attribute name="TIRS_SSM_MODEL" type="String">
+            <Value>UNKNOWN</Value>
+        </Attribute>
+        <Attribute name="TIRS_SSM_POSITION_STATUS" type="String">
+            <Value>UNKNOWN</Value>
+        </Attribute>
+        <Attribute name="ULX" type="String">
+            <Value>699960</Value>
+        </Attribute>
+        <Attribute name="ULY" type="String">
+            <Value>500040</Value>
+        </Attribute>
+        <Attribute name="unit" type="String">
+            <Value>Celsius</Value>
+        </Attribute>
+        <Attribute name="USGS_SOFTWARE" type="String">
+            <Value>LPGS_16.5.0</Value>
         </Attribute>
         <Attribute name="_FillValue" type="Int64">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="OFFSET" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="SCALE" type="String">
+            <Value>0.0100000000000000002</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>TIRS2</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>
         </Attribute>
     </Group>
@@ -223,13 +667,161 @@
             <Dim name="/4/y"/>
             <Dim name="/4/x"/>
         </Int16>
+        <Attribute name="citation" type="String">
+            <Value>UTM Zone 56, Northern Hemisphere</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32656</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>30.0</Value>
+            <Value>30.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>699960.0</Value>
+            <Value>500040.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
         </Attribute>
-        <Attribute name="gdal_no_data" type="String">
-            <Value>-9999</Value>
+        <Attribute name="ACCODE" type="String">
+            <Value>LaSRC v3.5.1.0</Value>
+        </Attribute>
+        <Attribute name="add_offset" type="String">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_xshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_yshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ncp" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_rmse(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_s2_refimg" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="cloud_coverage" type="String">
+            <Value>13</Value>
+        </Attribute>
+        <Attribute name="HLS_PROCESSING_TIME" type="String">
+            <Value>2026-04-21T01:07:40Z</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_NAME" type="String">
+            <Value>UTM, WGS84, UTM ZONE 56</Value>
+        </Attribute>
+        <Attribute name="L1_PROCESSING_TIME" type="String">
+            <Value>2026-04-20T00:48:26Z</Value>
+        </Attribute>
+        <Attribute name="LANDSAT_PRODUCT_ID" type="String">
+            <Value>LC09_L1TP_093057_20260419_20260420_02_T1</Value>
+        </Attribute>
+        <Attribute name="LANDSAT_SCENE_ID" type="String">
+            <Value>LC90930572026109LGN00</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>TIRS2</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_AZIMUTH_ANGLE" type="String">
+            <Value>72.3046694794268</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_ZENITH_ANGLE" type="String">
+            <Value>26.1763982866878</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_AZIMUTH_ANGLE" type="String">
+            <Value>280.390793550952</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_ZENITH_ANGLE" type="String">
+            <Value>7.50687018471978</Value>
+        </Attribute>
+        <Attribute name="NBAR_SOLAR_ZENITH" type="String">
+            <Value>24.8974946924367</Value>
+        </Attribute>
+        <Attribute name="NCOLS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="NROWS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="OVR_RESAMPLING_ALG" type="String">
+            <Value>NEAREST</Value>
+        </Attribute>
+        <Attribute name="PROCESSING_LEVEL" type="String">
+            <Value>L1TP</Value>
+        </Attribute>
+        <Attribute name="scale_factor" type="String">
+            <Value>0.01</Value>
+        </Attribute>
+        <Attribute name="SENSING_TIME" type="String">
+            <Value>2026-04-19T23:57:50.4369450Z</Value>
+        </Attribute>
+        <Attribute name="SENSOR" type="String">
+            <Value>OLI_TIRS</Value>
+        </Attribute>
+        <Attribute name="SENTINEL2_TILEID" type="String">
+            <Value>56NQK</Value>
+        </Attribute>
+        <Attribute name="spatial_coverage" type="String">
+            <Value>16</Value>
+        </Attribute>
+        <Attribute name="SPATIAL_RESOLUTION" type="String">
+            <Value>30</Value>
+        </Attribute>
+        <Attribute name="TIRS_SSM_MODEL" type="String">
+            <Value>UNKNOWN</Value>
+        </Attribute>
+        <Attribute name="TIRS_SSM_POSITION_STATUS" type="String">
+            <Value>UNKNOWN</Value>
+        </Attribute>
+        <Attribute name="ULX" type="String">
+            <Value>699960</Value>
+        </Attribute>
+        <Attribute name="ULY" type="String">
+            <Value>500040</Value>
+        </Attribute>
+        <Attribute name="unit" type="String">
+            <Value>Celsius</Value>
+        </Attribute>
+        <Attribute name="USGS_SOFTWARE" type="String">
+            <Value>LPGS_16.5.0</Value>
         </Attribute>
         <Attribute name="_FillValue" type="Int64">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="OFFSET" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="SCALE" type="String">
+            <Value>0.0100000000000000002</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>TIRS2</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>
         </Attribute>
     </Group>

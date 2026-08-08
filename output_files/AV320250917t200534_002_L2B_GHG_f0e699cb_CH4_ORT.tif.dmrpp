@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
-<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xmlns:dmrpp="http://xml.opendap.org/dap/dmrpp/1.0.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif">
+<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xmlns:dmrpp="http://xml.opendap.org/dap/dmrpp/1.0.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" dmrpp:href="file:///usr/share/hyrax/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif">
     <Group name="0">
         <Dimension name="y" size="2326" />
         <Dimension name="x" size="2171" />
@@ -8,31 +8,31 @@
             <Dim name="/0/x" />
             <dmrpp:chunks compressionType="lzw" fillValue="-9999.0" byteOrder="LE">
                 <dmrpp:chunkDimensionSizes>512 512</dmrpp:chunkDimensionSizes>
-                <dmrpp:chunk offset="3567918" nBytes="81219" chunkPositionInArray="[0,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="3649145" nBytes="845106" chunkPositionInArray="[0,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="4494259" nBytes="404206" chunkPositionInArray="[0,1024]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="4898473" nBytes="3994" chunkPositionInArray="[0,1536]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="4902475" nBytes="4470" chunkPositionInArray="[0,2048]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="4906953" nBytes="950178" chunkPositionInArray="[512,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="5857139" nBytes="1025402" chunkPositionInArray="[512,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="6882549" nBytes="968841" chunkPositionInArray="[512,1024]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="7851398" nBytes="40014" chunkPositionInArray="[512,1536]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="7891420" nBytes="4470" chunkPositionInArray="[512,2048]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="7895898" nBytes="483149" chunkPositionInArray="[1024,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="8379055" nBytes="966873" chunkPositionInArray="[1024,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="9345936" nBytes="425928" chunkPositionInArray="[1024,1024]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="9771872" nBytes="885885" chunkPositionInArray="[1024,1536]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="10657765" nBytes="70473" chunkPositionInArray="[1024,2048]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="10728246" nBytes="4162" chunkPositionInArray="[1536,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="10732416" nBytes="297325" chunkPositionInArray="[1536,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="11029749" nBytes="966276" chunkPositionInArray="[1536,1024]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="11996033" nBytes="480791" chunkPositionInArray="[1536,1536]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="12476832" nBytes="4470" chunkPositionInArray="[1536,2048]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="12481310" nBytes="4269" chunkPositionInArray="[2048,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="12485587" nBytes="41166" chunkPositionInArray="[2048,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="12526761" nBytes="306673" chunkPositionInArray="[2048,1024]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="12833442" nBytes="4269" chunkPositionInArray="[2048,1536]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="12837719" nBytes="3733" chunkPositionInArray="[2048,2048]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
+                <dmrpp:chunk offset="3567918" nBytes="81219" chunkPositionInArray="[0,0]" />
+                <dmrpp:chunk offset="3649145" nBytes="845106" chunkPositionInArray="[0,512]" />
+                <dmrpp:chunk offset="4494259" nBytes="404206" chunkPositionInArray="[0,1024]" />
+                <dmrpp:chunk offset="4898473" nBytes="3994" chunkPositionInArray="[0,1536]" />
+                <dmrpp:chunk offset="4902475" nBytes="4470" chunkPositionInArray="[0,2048]" />
+                <dmrpp:chunk offset="4906953" nBytes="950178" chunkPositionInArray="[512,0]" />
+                <dmrpp:chunk offset="5857139" nBytes="1025402" chunkPositionInArray="[512,512]" />
+                <dmrpp:chunk offset="6882549" nBytes="968841" chunkPositionInArray="[512,1024]" />
+                <dmrpp:chunk offset="7851398" nBytes="40014" chunkPositionInArray="[512,1536]" />
+                <dmrpp:chunk offset="7891420" nBytes="4470" chunkPositionInArray="[512,2048]" />
+                <dmrpp:chunk offset="7895898" nBytes="483149" chunkPositionInArray="[1024,0]" />
+                <dmrpp:chunk offset="8379055" nBytes="966873" chunkPositionInArray="[1024,512]" />
+                <dmrpp:chunk offset="9345936" nBytes="425928" chunkPositionInArray="[1024,1024]" />
+                <dmrpp:chunk offset="9771872" nBytes="885885" chunkPositionInArray="[1024,1536]" />
+                <dmrpp:chunk offset="10657765" nBytes="70473" chunkPositionInArray="[1024,2048]" />
+                <dmrpp:chunk offset="10728246" nBytes="4162" chunkPositionInArray="[1536,0]" />
+                <dmrpp:chunk offset="10732416" nBytes="297325" chunkPositionInArray="[1536,512]" />
+                <dmrpp:chunk offset="11029749" nBytes="966276" chunkPositionInArray="[1536,1024]" />
+                <dmrpp:chunk offset="11996033" nBytes="480791" chunkPositionInArray="[1536,1536]" />
+                <dmrpp:chunk offset="12476832" nBytes="4470" chunkPositionInArray="[1536,2048]" />
+                <dmrpp:chunk offset="12481310" nBytes="4269" chunkPositionInArray="[2048,0]" />
+                <dmrpp:chunk offset="12485587" nBytes="41166" chunkPositionInArray="[2048,512]" />
+                <dmrpp:chunk offset="12526761" nBytes="306673" chunkPositionInArray="[2048,1024]" />
+                <dmrpp:chunk offset="12833442" nBytes="4269" chunkPositionInArray="[2048,1536]" />
+                <dmrpp:chunk offset="12837719" nBytes="3733" chunkPositionInArray="[2048,2048]" />
             </dmrpp:chunks>
         </Float32>
         <Attribute name="citation" type="String">
@@ -93,19 +93,59 @@
             <Dim name="/1/x" />
             <dmrpp:chunks compressionType="lzw" fillValue="-9999.0" byteOrder="LE">
                 <dmrpp:chunkDimensionSizes>512 512</dmrpp:chunkDimensionSizes>
-                <dmrpp:chunk offset="918247" nBytes="788894" chunkPositionInArray="[0,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="1707149" nBytes="414825" chunkPositionInArray="[0,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="2121982" nBytes="3793" chunkPositionInArray="[0,1024]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="2125783" nBytes="508539" chunkPositionInArray="[512,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="2634330" nBytes="807127" chunkPositionInArray="[512,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="3441465" nBytes="23066" chunkPositionInArray="[512,1024]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="3464539" nBytes="14093" chunkPositionInArray="[1024,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="3478640" nBytes="86450" chunkPositionInArray="[1024,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="3565098" nBytes="2812" chunkPositionInArray="[1024,1024]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
+                <dmrpp:chunk offset="918247" nBytes="788894" chunkPositionInArray="[0,0]" />
+                <dmrpp:chunk offset="1707149" nBytes="414825" chunkPositionInArray="[0,512]" />
+                <dmrpp:chunk offset="2121982" nBytes="3793" chunkPositionInArray="[0,1024]" />
+                <dmrpp:chunk offset="2125783" nBytes="508539" chunkPositionInArray="[512,0]" />
+                <dmrpp:chunk offset="2634330" nBytes="807127" chunkPositionInArray="[512,512]" />
+                <dmrpp:chunk offset="3441465" nBytes="23066" chunkPositionInArray="[512,1024]" />
+                <dmrpp:chunk offset="3464539" nBytes="14093" chunkPositionInArray="[1024,0]" />
+                <dmrpp:chunk offset="3478640" nBytes="86450" chunkPositionInArray="[1024,512]" />
+                <dmrpp:chunk offset="3565098" nBytes="2812" chunkPositionInArray="[1024,1024]" />
             </dmrpp:chunks>
         </Float32>
+        <Attribute name="citation" type="String">
+            <Value>WGS 84 / UTM zone 11N</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32611</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>2.9</Value>
+            <Value>2.9</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>360574.992247703</Value>
+            <Value>3799093.19969418</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
+        </Attribute>
+        <Attribute name="Band_1" type="String">
+            <Value>Band 1</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>Band 1</Value>
         </Attribute>
         <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>
@@ -122,14 +162,54 @@
             <Dim name="/2/x" />
             <dmrpp:chunks compressionType="lzw" fillValue="-9999.0" byteOrder="LE">
                 <dmrpp:chunkDimensionSizes>512 512</dmrpp:chunkDimensionSizes>
-                <dmrpp:chunk offset="202000" nBytes="678123" chunkPositionInArray="[0,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="880131" nBytes="9248" chunkPositionInArray="[0,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="889387" nBytes="26525" chunkPositionInArray="[512,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
-                <dmrpp:chunk offset="915920" nBytes="2319" chunkPositionInArray="[512,512]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
+                <dmrpp:chunk offset="202000" nBytes="678123" chunkPositionInArray="[0,0]" />
+                <dmrpp:chunk offset="880131" nBytes="9248" chunkPositionInArray="[0,512]" />
+                <dmrpp:chunk offset="889387" nBytes="26525" chunkPositionInArray="[512,0]" />
+                <dmrpp:chunk offset="915920" nBytes="2319" chunkPositionInArray="[512,512]" />
             </dmrpp:chunks>
         </Float32>
+        <Attribute name="citation" type="String">
+            <Value>WGS 84 / UTM zone 11N</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32611</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>2.9</Value>
+            <Value>2.9</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>360574.992247703</Value>
+            <Value>3799093.19969418</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
+        </Attribute>
+        <Attribute name="Band_1" type="String">
+            <Value>Band 1</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>Band 1</Value>
         </Attribute>
         <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>
@@ -146,11 +226,51 @@
             <Dim name="/3/x" />
             <dmrpp:chunks compressionType="lzw" fillValue="-9999.0" byteOrder="LE">
                 <dmrpp:chunkDimensionSizes>512 512</dmrpp:chunkDimensionSizes>
-                <dmrpp:chunk offset="1622" nBytes="200370" chunkPositionInArray="[0,0]" href="file:///Users/miguelangeljimenezurias/OPeNDAP/kerchunk-dmrpp/input_files/AV320250917t200534_002_L2B_GHG_f0e699cb_CH4_ORT.tif" />
+                <dmrpp:chunk offset="1622" nBytes="200370" chunkPositionInArray="[0,0]" />
             </dmrpp:chunks>
         </Float32>
+        <Attribute name="citation" type="String">
+            <Value>WGS 84 / UTM zone 11N</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32611</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>2.9</Value>
+            <Value>2.9</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>360574.992247703</Value>
+            <Value>3799093.19969418</Value>
+            <Value>0.0</Value>
+        </Attribute>
         <Attribute name="photometric_interpretation" type="Int64">
             <Value>1</Value>
+        </Attribute>
+        <Attribute name="Band_1" type="String">
+            <Value>Band 1</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>Band 1</Value>
         </Attribute>
         <Attribute name="gdal_no_data" type="String">
             <Value>-9999</Value>
