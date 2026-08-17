@@ -18,4 +18,5 @@ dependencies:
   - rioxarray
   - xproj
   - rasterix
+  - tifffile
   - virtual-tiff
