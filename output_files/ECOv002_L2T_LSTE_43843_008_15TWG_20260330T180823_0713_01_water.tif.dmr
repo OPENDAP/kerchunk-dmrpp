@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="ECOv002_L2T_LSTE_43843_008_15TWG_20260330T180823_0713_01_water.tif">
+    <Group name="0">
+        <Dimension name="y" size="1568"/>
+        <Dimension name="x" size="1568"/>
+        <UInt8 name="0">
+            <Dim name="/0/y"/>
+            <Dim name="/0/x"/>
+        </UInt8>
+        <Attribute name="citation" type="String">
+            <Value>WGS 84 / UTM zone 15N</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>GCS Name = WGS 84|Datum = World Geodetic System 1984|Ellipsoid = WGS 84|Primem = Greenwich|</Value>
+        </Attribute>
+        <Attribute name="geog_ellipsoid" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="geog_geodetic_datum" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="geog_inv_flattening" type="Float64">
+            <Value>298.257223563</Value>
+        </Attribute>
+        <Attribute name="geog_prime_meridian_long" type="Float64">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="geog_semi_major_axis" type="Float64">
+            <Value>6378137.0</Value>
+        </Attribute>
+        <Attribute name="geographic_type" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="projection" type="Int64">
+            <Value>16015</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>70.0</Value>
+            <Value>70.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>499980.0</Value>
+            <Value>4700040.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+    </Group>
+</Dataset>
