@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xmlns:dmrpp="http://xml.opendap.org/dap/dmrpp/1.0.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="test_pattern_1024_deflate.tif" 
+    dmrpp:href="file:///usr/share/hyrax/test_pattern_1024_deflate.tif">
+    <Group name="0">
+        <Dimension name="y" size="1024" />
+        <Dimension name="x" size="1024" />
+        <UInt8 name="0">
+            <Dim name="/0/y" />
+            <Dim name="/0/x" />
+            <dmrpp:chunks compressionType="deflate" fillValue="0" byteOrder="LE">
+                <dmrpp:chunkDimensionSizes>256 256</dmrpp:chunkDimensionSizes>
+                <dmrpp:chunk offset="560" nBytes="325" chunkPositionInArray="[0,0]" />
+                <dmrpp:chunk offset="885" nBytes="325" chunkPositionInArray="[0,256]" />
+                <dmrpp:chunk offset="1210" nBytes="325" chunkPositionInArray="[0,512]" />
+                <dmrpp:chunk offset="1535" nBytes="325" chunkPositionInArray="[0,768]" />
+                <dmrpp:chunk offset="1860" nBytes="325" chunkPositionInArray="[256,0]" />
+                <dmrpp:chunk offset="2185" nBytes="325" chunkPositionInArray="[256,256]" />
+                <dmrpp:chunk offset="2510" nBytes="325" chunkPositionInArray="[256,512]" />
+                <dmrpp:chunk offset="2835" nBytes="325" chunkPositionInArray="[256,768]" />
+                <dmrpp:chunk offset="3160" nBytes="325" chunkPositionInArray="[512,0]" />
+                <dmrpp:chunk offset="3485" nBytes="325" chunkPositionInArray="[512,256]" />
+                <dmrpp:chunk offset="3810" nBytes="325" chunkPositionInArray="[512,512]" />
+                <dmrpp:chunk offset="4135" nBytes="325" chunkPositionInArray="[512,768]" />
+                <dmrpp:chunk offset="4460" nBytes="325" chunkPositionInArray="[768,0]" />
+                <dmrpp:chunk offset="4785" nBytes="325" chunkPositionInArray="[768,256]" />
+                <dmrpp:chunk offset="5110" nBytes="325" chunkPositionInArray="[768,512]" />
+                <dmrpp:chunk offset="5435" nBytes="325" chunkPositionInArray="[768,768]" />
+            </dmrpp:chunks>
+        </UInt8>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geographic_type" type="Int64">
+            <Value>4326</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>2</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>0.0009765625</Value>
+            <Value>0.0009765625</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>-10.0</Value>
+            <Value>10.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+    </Group>
+</Dataset>

@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="HLS_S30_T56LRR_2026109T235801_v2_0_B08.tif">
+    <Group name="0">
+        <Dimension name="y" size="3660"/>
+        <Dimension name="x" size="3660"/>
+        <Int16 name="0">
+            <Dim name="/0/y"/>
+            <Dim name="/0/x"/>
+        </Int16>
+        <Attribute name="citation" type="String">
+            <Value>UTM Zone 56, Northern Hemisphere</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32656</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>30.0</Value>
+            <Value>30.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>799980.0</Value>
+            <Value>-900000.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="ACCODE" type="String">
+            <Value>LaSRC v3.5.1.0</Value>
+        </Attribute>
+        <Attribute name="add_offset" type="String">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_xshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_yshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ncp" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_rmse(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_s2_refimg" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="cloud_coverage" type="String">
+            <Value>28</Value>
+        </Attribute>
+        <Attribute name="DATASTRIP_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_DS_2APS_20260420T045642_S20260419T235756_N05.12</Value>
+        </Attribute>
+        <Attribute name="HLS_PROCESSING_TIME" type="String">
+            <Value>2026-04-21T02:15:58Z</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_CODE" type="String">
+            <Value>EPSG:32756</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_NAME" type="String">
+            <Value>WGS84 / UTM zone 56S</Value>
+        </Attribute>
+        <Attribute name="L1C_IMAGE_QUALITY" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="L1_PROCESSING_TIME" type="String">
+            <Value>2026-04-20T05:51:46.120462Z</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_AZIMUTH_ANGLE" type="String">
+            <Value>49.931677970855</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_ZENITH_ANGLE" type="String">
+            <Value>30.9304108930982</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_AZIMUTH_ANGLE" type="String">
+            <Value>130.526369212187</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_ZENITH_ANGLE" type="String">
+            <Value>3.10244965539708</Value>
+        </Attribute>
+        <Attribute name="MSI band 01 bandpass adjustment slope and offset" type="String">
+            <Value>0.995900, -0.000200</Value>
+        </Attribute>
+        <Attribute name="MSI band 02 bandpass adjustment slope and offset" type="String">
+            <Value>0.977800, -0.004000</Value>
+        </Attribute>
+        <Attribute name="MSI band 03 bandpass adjustment slope and offset" type="String">
+            <Value>1.005300, -0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 04 bandpass adjustment slope and offset" type="String">
+            <Value>0.976500, 0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 11 bandpass adjustment slope and offset" type="String">
+            <Value>0.998700, -0.001100</Value>
+        </Attribute>
+        <Attribute name="MSI band 12 bandpass adjustment slope and offset" type="String">
+            <Value>1.003000, -0.001200</Value>
+        </Attribute>
+        <Attribute name="MSI band 8a bandpass adjustment slope and offset" type="String">
+            <Value>0.998300, -0.000100</Value>
+        </Attribute>
+        <Attribute name="NBAR_SOLAR_ZENITH" type="String">
+            <Value>32.5362187884383</Value>
+        </Attribute>
+        <Attribute name="NCOLS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="NROWS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="OVR_RESAMPLING_ALG" type="String">
+            <Value>NEAREST</Value>
+        </Attribute>
+        <Attribute name="PROCESSING_BASELINE" type="String">
+            <Value>05.12</Value>
+        </Attribute>
+        <Attribute name="PRODUCT_URI" type="String">
+            <Value>S2A_MSIL1C_20260419T235801_N0512_R030_T56LRR_20260420T045642.SAFE</Value>
+        </Attribute>
+        <Attribute name="scale_factor" type="String">
+            <Value>0.0001</Value>
+        </Attribute>
+        <Attribute name="SENSING_TIME" type="String">
+            <Value>2026-04-19T23:59:23.12303Z</Value>
+        </Attribute>
+        <Attribute name="SPACECRAFT_NAME" type="String">
+            <Value>Sentinel-2A</Value>
+        </Attribute>
+        <Attribute name="spatial_coverage" type="String">
+            <Value>99</Value>
+        </Attribute>
+        <Attribute name="SPATIAL_RESOLUTION" type="String">
+            <Value>30</Value>
+        </Attribute>
+        <Attribute name="TILE_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_TL_2APS_20260420T045642_A056541_T56LRR_N05.12</Value>
+        </Attribute>
+        <Attribute name="ULX" type="String">
+            <Value>799980</Value>
+        </Attribute>
+        <Attribute name="ULY" type="String">
+            <Value>-900000</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="Int64">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="OFFSET" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="SCALE" type="String">
+            <Value>0.000100000000000000005</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+    </Group>
+    <Group name="1">
+        <Dimension name="y" size="1830"/>
+        <Dimension name="x" size="1830"/>
+        <Int16 name="1">
+            <Dim name="/1/y"/>
+            <Dim name="/1/x"/>
+        </Int16>
+        <Attribute name="citation" type="String">
+            <Value>UTM Zone 56, Northern Hemisphere</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32656</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>30.0</Value>
+            <Value>30.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>799980.0</Value>
+            <Value>-900000.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="ACCODE" type="String">
+            <Value>LaSRC v3.5.1.0</Value>
+        </Attribute>
+        <Attribute name="add_offset" type="String">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_xshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_yshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ncp" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_rmse(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_s2_refimg" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="cloud_coverage" type="String">
+            <Value>28</Value>
+        </Attribute>
+        <Attribute name="DATASTRIP_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_DS_2APS_20260420T045642_S20260419T235756_N05.12</Value>
+        </Attribute>
+        <Attribute name="HLS_PROCESSING_TIME" type="String">
+            <Value>2026-04-21T02:15:58Z</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_CODE" type="String">
+            <Value>EPSG:32756</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_NAME" type="String">
+            <Value>WGS84 / UTM zone 56S</Value>
+        </Attribute>
+        <Attribute name="L1C_IMAGE_QUALITY" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="L1_PROCESSING_TIME" type="String">
+            <Value>2026-04-20T05:51:46.120462Z</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_AZIMUTH_ANGLE" type="String">
+            <Value>49.931677970855</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_ZENITH_ANGLE" type="String">
+            <Value>30.9304108930982</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_AZIMUTH_ANGLE" type="String">
+            <Value>130.526369212187</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_ZENITH_ANGLE" type="String">
+            <Value>3.10244965539708</Value>
+        </Attribute>
+        <Attribute name="MSI band 01 bandpass adjustment slope and offset" type="String">
+            <Value>0.995900, -0.000200</Value>
+        </Attribute>
+        <Attribute name="MSI band 02 bandpass adjustment slope and offset" type="String">
+            <Value>0.977800, -0.004000</Value>
+        </Attribute>
+        <Attribute name="MSI band 03 bandpass adjustment slope and offset" type="String">
+            <Value>1.005300, -0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 04 bandpass adjustment slope and offset" type="String">
+            <Value>0.976500, 0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 11 bandpass adjustment slope and offset" type="String">
+            <Value>0.998700, -0.001100</Value>
+        </Attribute>
+        <Attribute name="MSI band 12 bandpass adjustment slope and offset" type="String">
+            <Value>1.003000, -0.001200</Value>
+        </Attribute>
+        <Attribute name="MSI band 8a bandpass adjustment slope and offset" type="String">
+            <Value>0.998300, -0.000100</Value>
+        </Attribute>
+        <Attribute name="NBAR_SOLAR_ZENITH" type="String">
+            <Value>32.5362187884383</Value>
+        </Attribute>
+        <Attribute name="NCOLS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="NROWS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="OVR_RESAMPLING_ALG" type="String">
+            <Value>NEAREST</Value>
+        </Attribute>
+        <Attribute name="PROCESSING_BASELINE" type="String">
+            <Value>05.12</Value>
+        </Attribute>
+        <Attribute name="PRODUCT_URI" type="String">
+            <Value>S2A_MSIL1C_20260419T235801_N0512_R030_T56LRR_20260420T045642.SAFE</Value>
+        </Attribute>
+        <Attribute name="scale_factor" type="String">
+            <Value>0.0001</Value>
+        </Attribute>
+        <Attribute name="SENSING_TIME" type="String">
+            <Value>2026-04-19T23:59:23.12303Z</Value>
+        </Attribute>
+        <Attribute name="SPACECRAFT_NAME" type="String">
+            <Value>Sentinel-2A</Value>
+        </Attribute>
+        <Attribute name="spatial_coverage" type="String">
+            <Value>99</Value>
+        </Attribute>
+        <Attribute name="SPATIAL_RESOLUTION" type="String">
+            <Value>30</Value>
+        </Attribute>
+        <Attribute name="TILE_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_TL_2APS_20260420T045642_A056541_T56LRR_N05.12</Value>
+        </Attribute>
+        <Attribute name="ULX" type="String">
+            <Value>799980</Value>
+        </Attribute>
+        <Attribute name="ULY" type="String">
+            <Value>-900000</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="Int64">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="OFFSET" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="SCALE" type="String">
+            <Value>0.000100000000000000005</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+    </Group>
+    <Group name="2">
+        <Dimension name="y" size="915"/>
+        <Dimension name="x" size="915"/>
+        <Int16 name="2">
+            <Dim name="/2/y"/>
+            <Dim name="/2/x"/>
+        </Int16>
+        <Attribute name="citation" type="String">
+            <Value>UTM Zone 56, Northern Hemisphere</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32656</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>30.0</Value>
+            <Value>30.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>799980.0</Value>
+            <Value>-900000.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="ACCODE" type="String">
+            <Value>LaSRC v3.5.1.0</Value>
+        </Attribute>
+        <Attribute name="add_offset" type="String">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_xshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_yshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ncp" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_rmse(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_s2_refimg" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="cloud_coverage" type="String">
+            <Value>28</Value>
+        </Attribute>
+        <Attribute name="DATASTRIP_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_DS_2APS_20260420T045642_S20260419T235756_N05.12</Value>
+        </Attribute>
+        <Attribute name="HLS_PROCESSING_TIME" type="String">
+            <Value>2026-04-21T02:15:58Z</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_CODE" type="String">
+            <Value>EPSG:32756</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_NAME" type="String">
+            <Value>WGS84 / UTM zone 56S</Value>
+        </Attribute>
+        <Attribute name="L1C_IMAGE_QUALITY" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="L1_PROCESSING_TIME" type="String">
+            <Value>2026-04-20T05:51:46.120462Z</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_AZIMUTH_ANGLE" type="String">
+            <Value>49.931677970855</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_ZENITH_ANGLE" type="String">
+            <Value>30.9304108930982</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_AZIMUTH_ANGLE" type="String">
+            <Value>130.526369212187</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_ZENITH_ANGLE" type="String">
+            <Value>3.10244965539708</Value>
+        </Attribute>
+        <Attribute name="MSI band 01 bandpass adjustment slope and offset" type="String">
+            <Value>0.995900, -0.000200</Value>
+        </Attribute>
+        <Attribute name="MSI band 02 bandpass adjustment slope and offset" type="String">
+            <Value>0.977800, -0.004000</Value>
+        </Attribute>
+        <Attribute name="MSI band 03 bandpass adjustment slope and offset" type="String">
+            <Value>1.005300, -0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 04 bandpass adjustment slope and offset" type="String">
+            <Value>0.976500, 0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 11 bandpass adjustment slope and offset" type="String">
+            <Value>0.998700, -0.001100</Value>
+        </Attribute>
+        <Attribute name="MSI band 12 bandpass adjustment slope and offset" type="String">
+            <Value>1.003000, -0.001200</Value>
+        </Attribute>
+        <Attribute name="MSI band 8a bandpass adjustment slope and offset" type="String">
+            <Value>0.998300, -0.000100</Value>
+        </Attribute>
+        <Attribute name="NBAR_SOLAR_ZENITH" type="String">
+            <Value>32.5362187884383</Value>
+        </Attribute>
+        <Attribute name="NCOLS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="NROWS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="OVR_RESAMPLING_ALG" type="String">
+            <Value>NEAREST</Value>
+        </Attribute>
+        <Attribute name="PROCESSING_BASELINE" type="String">
+            <Value>05.12</Value>
+        </Attribute>
+        <Attribute name="PRODUCT_URI" type="String">
+            <Value>S2A_MSIL1C_20260419T235801_N0512_R030_T56LRR_20260420T045642.SAFE</Value>
+        </Attribute>
+        <Attribute name="scale_factor" type="String">
+            <Value>0.0001</Value>
+        </Attribute>
+        <Attribute name="SENSING_TIME" type="String">
+            <Value>2026-04-19T23:59:23.12303Z</Value>
+        </Attribute>
+        <Attribute name="SPACECRAFT_NAME" type="String">
+            <Value>Sentinel-2A</Value>
+        </Attribute>
+        <Attribute name="spatial_coverage" type="String">
+            <Value>99</Value>
+        </Attribute>
+        <Attribute name="SPATIAL_RESOLUTION" type="String">
+            <Value>30</Value>
+        </Attribute>
+        <Attribute name="TILE_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_TL_2APS_20260420T045642_A056541_T56LRR_N05.12</Value>
+        </Attribute>
+        <Attribute name="ULX" type="String">
+            <Value>799980</Value>
+        </Attribute>
+        <Attribute name="ULY" type="String">
+            <Value>-900000</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="Int64">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="OFFSET" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="SCALE" type="String">
+            <Value>0.000100000000000000005</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+    </Group>
+    <Group name="3">
+        <Dimension name="y" size="458"/>
+        <Dimension name="x" size="458"/>
+        <Int16 name="3">
+            <Dim name="/3/y"/>
+            <Dim name="/3/x"/>
+        </Int16>
+        <Attribute name="citation" type="String">
+            <Value>UTM Zone 56, Northern Hemisphere</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32656</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>30.0</Value>
+            <Value>30.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>799980.0</Value>
+            <Value>-900000.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="ACCODE" type="String">
+            <Value>LaSRC v3.5.1.0</Value>
+        </Attribute>
+        <Attribute name="add_offset" type="String">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_xshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_yshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ncp" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_rmse(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_s2_refimg" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="cloud_coverage" type="String">
+            <Value>28</Value>
+        </Attribute>
+        <Attribute name="DATASTRIP_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_DS_2APS_20260420T045642_S20260419T235756_N05.12</Value>
+        </Attribute>
+        <Attribute name="HLS_PROCESSING_TIME" type="String">
+            <Value>2026-04-21T02:15:58Z</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_CODE" type="String">
+            <Value>EPSG:32756</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_NAME" type="String">
+            <Value>WGS84 / UTM zone 56S</Value>
+        </Attribute>
+        <Attribute name="L1C_IMAGE_QUALITY" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="L1_PROCESSING_TIME" type="String">
+            <Value>2026-04-20T05:51:46.120462Z</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_AZIMUTH_ANGLE" type="String">
+            <Value>49.931677970855</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_ZENITH_ANGLE" type="String">
+            <Value>30.9304108930982</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_AZIMUTH_ANGLE" type="String">
+            <Value>130.526369212187</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_ZENITH_ANGLE" type="String">
+            <Value>3.10244965539708</Value>
+        </Attribute>
+        <Attribute name="MSI band 01 bandpass adjustment slope and offset" type="String">
+            <Value>0.995900, -0.000200</Value>
+        </Attribute>
+        <Attribute name="MSI band 02 bandpass adjustment slope and offset" type="String">
+            <Value>0.977800, -0.004000</Value>
+        </Attribute>
+        <Attribute name="MSI band 03 bandpass adjustment slope and offset" type="String">
+            <Value>1.005300, -0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 04 bandpass adjustment slope and offset" type="String">
+            <Value>0.976500, 0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 11 bandpass adjustment slope and offset" type="String">
+            <Value>0.998700, -0.001100</Value>
+        </Attribute>
+        <Attribute name="MSI band 12 bandpass adjustment slope and offset" type="String">
+            <Value>1.003000, -0.001200</Value>
+        </Attribute>
+        <Attribute name="MSI band 8a bandpass adjustment slope and offset" type="String">
+            <Value>0.998300, -0.000100</Value>
+        </Attribute>
+        <Attribute name="NBAR_SOLAR_ZENITH" type="String">
+            <Value>32.5362187884383</Value>
+        </Attribute>
+        <Attribute name="NCOLS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="NROWS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="OVR_RESAMPLING_ALG" type="String">
+            <Value>NEAREST</Value>
+        </Attribute>
+        <Attribute name="PROCESSING_BASELINE" type="String">
+            <Value>05.12</Value>
+        </Attribute>
+        <Attribute name="PRODUCT_URI" type="String">
+            <Value>S2A_MSIL1C_20260419T235801_N0512_R030_T56LRR_20260420T045642.SAFE</Value>
+        </Attribute>
+        <Attribute name="scale_factor" type="String">
+            <Value>0.0001</Value>
+        </Attribute>
+        <Attribute name="SENSING_TIME" type="String">
+            <Value>2026-04-19T23:59:23.12303Z</Value>
+        </Attribute>
+        <Attribute name="SPACECRAFT_NAME" type="String">
+            <Value>Sentinel-2A</Value>
+        </Attribute>
+        <Attribute name="spatial_coverage" type="String">
+            <Value>99</Value>
+        </Attribute>
+        <Attribute name="SPATIAL_RESOLUTION" type="String">
+            <Value>30</Value>
+        </Attribute>
+        <Attribute name="TILE_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_TL_2APS_20260420T045642_A056541_T56LRR_N05.12</Value>
+        </Attribute>
+        <Attribute name="ULX" type="String">
+            <Value>799980</Value>
+        </Attribute>
+        <Attribute name="ULY" type="String">
+            <Value>-900000</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="Int64">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="OFFSET" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="SCALE" type="String">
+            <Value>0.000100000000000000005</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+    </Group>
+    <Group name="4">
+        <Dimension name="y" size="229"/>
+        <Dimension name="x" size="229"/>
+        <Int16 name="4">
+            <Dim name="/4/y"/>
+            <Dim name="/4/x"/>
+        </Int16>
+        <Attribute name="citation" type="String">
+            <Value>UTM Zone 56, Northern Hemisphere</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>WGS 84</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32656</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>30.0</Value>
+            <Value>30.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>799980.0</Value>
+            <Value>-900000.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="ACCODE" type="String">
+            <Value>LaSRC v3.5.1.0</Value>
+        </Attribute>
+        <Attribute name="add_offset" type="String">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_xshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ave_yshift(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_ncp" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_rmse(meters)" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="arop_s2_refimg" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="cloud_coverage" type="String">
+            <Value>28</Value>
+        </Attribute>
+        <Attribute name="DATASTRIP_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_DS_2APS_20260420T045642_S20260419T235756_N05.12</Value>
+        </Attribute>
+        <Attribute name="HLS_PROCESSING_TIME" type="String">
+            <Value>2026-04-21T02:15:58Z</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_CODE" type="String">
+            <Value>EPSG:32756</Value>
+        </Attribute>
+        <Attribute name="HORIZONTAL_CS_NAME" type="String">
+            <Value>WGS84 / UTM zone 56S</Value>
+        </Attribute>
+        <Attribute name="L1C_IMAGE_QUALITY" type="String">
+            <Value>NONE</Value>
+        </Attribute>
+        <Attribute name="L1_PROCESSING_TIME" type="String">
+            <Value>2026-04-20T05:51:46.120462Z</Value>
+        </Attribute>
+        <Attribute name="long_name" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_AZIMUTH_ANGLE" type="String">
+            <Value>49.931677970855</Value>
+        </Attribute>
+        <Attribute name="MEAN_SUN_ZENITH_ANGLE" type="String">
+            <Value>30.9304108930982</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_AZIMUTH_ANGLE" type="String">
+            <Value>130.526369212187</Value>
+        </Attribute>
+        <Attribute name="MEAN_VIEW_ZENITH_ANGLE" type="String">
+            <Value>3.10244965539708</Value>
+        </Attribute>
+        <Attribute name="MSI band 01 bandpass adjustment slope and offset" type="String">
+            <Value>0.995900, -0.000200</Value>
+        </Attribute>
+        <Attribute name="MSI band 02 bandpass adjustment slope and offset" type="String">
+            <Value>0.977800, -0.004000</Value>
+        </Attribute>
+        <Attribute name="MSI band 03 bandpass adjustment slope and offset" type="String">
+            <Value>1.005300, -0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 04 bandpass adjustment slope and offset" type="String">
+            <Value>0.976500, 0.000900</Value>
+        </Attribute>
+        <Attribute name="MSI band 11 bandpass adjustment slope and offset" type="String">
+            <Value>0.998700, -0.001100</Value>
+        </Attribute>
+        <Attribute name="MSI band 12 bandpass adjustment slope and offset" type="String">
+            <Value>1.003000, -0.001200</Value>
+        </Attribute>
+        <Attribute name="MSI band 8a bandpass adjustment slope and offset" type="String">
+            <Value>0.998300, -0.000100</Value>
+        </Attribute>
+        <Attribute name="NBAR_SOLAR_ZENITH" type="String">
+            <Value>32.5362187884383</Value>
+        </Attribute>
+        <Attribute name="NCOLS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="NROWS" type="String">
+            <Value>3660</Value>
+        </Attribute>
+        <Attribute name="OVR_RESAMPLING_ALG" type="String">
+            <Value>NEAREST</Value>
+        </Attribute>
+        <Attribute name="PROCESSING_BASELINE" type="String">
+            <Value>05.12</Value>
+        </Attribute>
+        <Attribute name="PRODUCT_URI" type="String">
+            <Value>S2A_MSIL1C_20260419T235801_N0512_R030_T56LRR_20260420T045642.SAFE</Value>
+        </Attribute>
+        <Attribute name="scale_factor" type="String">
+            <Value>0.0001</Value>
+        </Attribute>
+        <Attribute name="SENSING_TIME" type="String">
+            <Value>2026-04-19T23:59:23.12303Z</Value>
+        </Attribute>
+        <Attribute name="SPACECRAFT_NAME" type="String">
+            <Value>Sentinel-2A</Value>
+        </Attribute>
+        <Attribute name="spatial_coverage" type="String">
+            <Value>99</Value>
+        </Attribute>
+        <Attribute name="SPATIAL_RESOLUTION" type="String">
+            <Value>30</Value>
+        </Attribute>
+        <Attribute name="TILE_ID" type="String">
+            <Value>S2A_OPER_MSI_L1C_TL_2APS_20260420T045642_A056541_T56LRR_N05.12</Value>
+        </Attribute>
+        <Attribute name="ULX" type="String">
+            <Value>799980</Value>
+        </Attribute>
+        <Attribute name="ULY" type="String">
+            <Value>-900000</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="Int64">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="OFFSET" type="String">
+            <Value>0</Value>
+        </Attribute>
+        <Attribute name="SCALE" type="String">
+            <Value>0.000100000000000000005</Value>
+        </Attribute>
+        <Attribute name="DESCRIPTION" type="String">
+            <Value>NIR_Broad</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+    </Group>
+</Dataset>

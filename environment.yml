@@ -1,0 +1,22 @@
+name: dmrpp_tests
+channels:
+- conda-forge
+dependencies:
+- netcdf4
+- python=3.12
+- virtualizarr
+- kerchunk
+- fastparquet
+- jupyterlab
+- matplotlib
+- tifffile
+- pip
+- pip:
+  - imagecodecs==2026.6.26
+  - imagecodecs-numcodecs==2026.6.26
+  - pydap
+  - rioxarray
+  - xproj
+  - rasterix
+  - tifffile
+  - virtual-tiff

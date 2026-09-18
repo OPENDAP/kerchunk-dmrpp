@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="HMA_DEM8m_MOS_20170716_tile-390.tif">
+    <Group name="0">
+        <Dimension name="y" size="12500"/>
+        <Dimension name="x" size="12500"/>
+        <Float32 name="0">
+            <Dim name="/0/y"/>
+            <Dim name="/0/x"/>
+        </Float32>
+        <Attribute name="citation" type="String">
+            <Value>unnamed</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>Geographic Coordinate System</Value>
+        </Attribute>
+        <Attribute name="geog_inv_flattening" type="Float64">
+            <Value>298.2572235630016</Value>
+        </Attribute>
+        <Attribute name="geog_semi_major_axis" type="Float64">
+            <Value>6378137.0</Value>
+        </Attribute>
+        <Attribute name="geographic_type" type="Int64">
+            <Value>4326</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_coord_trans" type="Int64">
+            <Value>11</Value>
+        </Attribute>
+        <Attribute name="proj_false_easting" type="Float64">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="proj_false_northing" type="Float64">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="proj_nat_origin_lat" type="Float64">
+            <Value>36.0</Value>
+        </Attribute>
+        <Attribute name="proj_nat_origin_long" type="Float64">
+            <Value>85.0</Value>
+        </Attribute>
+        <Attribute name="proj_std_parallel1" type="Float64">
+            <Value>25.0</Value>
+        </Attribute>
+        <Attribute name="proj_std_parallel2" type="Float64">
+            <Value>47.0</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="projection" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>8.0</Value>
+            <Value>8.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>1146367.0910398224</Value>
+            <Value>43788.65543930791</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="gdal_no_data" type="String">
+            <Value>-9999</Value>
+        </Attribute>
+        <Attribute name="_FillValue" type="String">
+            <Value>AAAAAICHw8A=</Value>
+        </Attribute>
+    </Group>
+</Dataset>

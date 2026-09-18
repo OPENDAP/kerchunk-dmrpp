@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xmlns:dmrpp="http://xml.opendap.org/dap/dmrpp/1.0.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="ECOv002_L2T_LSTE_43843_008_15TWG_20260330T180823_0713_01_water.tif" dmrpp:href="file:///usr/share/hyrax/ECOv002_L2T_LSTE_43843_008_15TWG_20260330T180823_0713_01_water.tif">
+    <Group name="0">
+        <Dimension name="y" size="1568" />
+        <Dimension name="x" size="1568" />
+        <UInt8 name="0">
+            <Dim name="/0/y" />
+            <Dim name="/0/x" />
+            <dmrpp:chunks compressionType="deflate" fillValue="0" byteOrder="LE">
+                <dmrpp:chunkDimensionSizes>256 256</dmrpp:chunkDimensionSizes>
+                <dmrpp:chunk offset="1141" nBytes="84" chunkPositionInArray="[0,0]" />
+                <dmrpp:chunk offset="1233" nBytes="84" chunkPositionInArray="[0,256]" />
+                <dmrpp:chunk offset="1325" nBytes="84" chunkPositionInArray="[0,512]" />
+                <dmrpp:chunk offset="1417" nBytes="84" chunkPositionInArray="[0,768]" />
+                <dmrpp:chunk offset="1509" nBytes="84" chunkPositionInArray="[0,1024]" />
+                <dmrpp:chunk offset="1601" nBytes="84" chunkPositionInArray="[0,1280]" />
+                <dmrpp:chunk offset="1693" nBytes="84" chunkPositionInArray="[0,1536]" />
+                <dmrpp:chunk offset="1785" nBytes="84" chunkPositionInArray="[256,0]" />
+                <dmrpp:chunk offset="1877" nBytes="84" chunkPositionInArray="[256,256]" />
+                <dmrpp:chunk offset="1969" nBytes="84" chunkPositionInArray="[256,512]" />
+                <dmrpp:chunk offset="2061" nBytes="84" chunkPositionInArray="[256,768]" />
+                <dmrpp:chunk offset="2153" nBytes="84" chunkPositionInArray="[256,1024]" />
+                <dmrpp:chunk offset="2245" nBytes="84" chunkPositionInArray="[256,1280]" />
+                <dmrpp:chunk offset="2337" nBytes="84" chunkPositionInArray="[256,1536]" />
+                <dmrpp:chunk offset="2429" nBytes="84" chunkPositionInArray="[512,0]" />
+                <dmrpp:chunk offset="2521" nBytes="84" chunkPositionInArray="[512,256]" />
+                <dmrpp:chunk offset="2613" nBytes="84" chunkPositionInArray="[512,512]" />
+                <dmrpp:chunk offset="2705" nBytes="84" chunkPositionInArray="[512,768]" />
+                <dmrpp:chunk offset="2797" nBytes="84" chunkPositionInArray="[512,1024]" />
+                <dmrpp:chunk offset="2889" nBytes="84" chunkPositionInArray="[512,1280]" />
+                <dmrpp:chunk offset="2981" nBytes="92" chunkPositionInArray="[512,1536]" />
+                <dmrpp:chunk offset="3081" nBytes="84" chunkPositionInArray="[768,0]" />
+                <dmrpp:chunk offset="3173" nBytes="84" chunkPositionInArray="[768,256]" />
+                <dmrpp:chunk offset="3265" nBytes="84" chunkPositionInArray="[768,512]" />
+                <dmrpp:chunk offset="3357" nBytes="84" chunkPositionInArray="[768,768]" />
+                <dmrpp:chunk offset="3449" nBytes="84" chunkPositionInArray="[768,1024]" />
+                <dmrpp:chunk offset="3541" nBytes="97" chunkPositionInArray="[768,1280]" />
+                <dmrpp:chunk offset="3646" nBytes="84" chunkPositionInArray="[768,1536]" />
+                <dmrpp:chunk offset="3738" nBytes="84" chunkPositionInArray="[1024,0]" />
+                <dmrpp:chunk offset="3830" nBytes="84" chunkPositionInArray="[1024,256]" />
+                <dmrpp:chunk offset="3922" nBytes="84" chunkPositionInArray="[1024,512]" />
+                <dmrpp:chunk offset="4014" nBytes="92" chunkPositionInArray="[1024,768]" />
+                <dmrpp:chunk offset="4114" nBytes="84" chunkPositionInArray="[1024,1024]" />
+                <dmrpp:chunk offset="4206" nBytes="114" chunkPositionInArray="[1024,1280]" />
+                <dmrpp:chunk offset="4328" nBytes="95" chunkPositionInArray="[1024,1536]" />
+                <dmrpp:chunk offset="4431" nBytes="84" chunkPositionInArray="[1280,0]" />
+                <dmrpp:chunk offset="4523" nBytes="84" chunkPositionInArray="[1280,256]" />
+                <dmrpp:chunk offset="4615" nBytes="84" chunkPositionInArray="[1280,512]" />
+                <dmrpp:chunk offset="4707" nBytes="125" chunkPositionInArray="[1280,768]" />
+                <dmrpp:chunk offset="4840" nBytes="84" chunkPositionInArray="[1280,1024]" />
+                <dmrpp:chunk offset="4932" nBytes="84" chunkPositionInArray="[1280,1280]" />
+                <dmrpp:chunk offset="5024" nBytes="84" chunkPositionInArray="[1280,1536]" />
+                <dmrpp:chunk offset="5116" nBytes="84" chunkPositionInArray="[1536,0]" />
+                <dmrpp:chunk offset="5208" nBytes="84" chunkPositionInArray="[1536,256]" />
+                <dmrpp:chunk offset="5300" nBytes="84" chunkPositionInArray="[1536,512]" />
+                <dmrpp:chunk offset="5392" nBytes="84" chunkPositionInArray="[1536,768]" />
+                <dmrpp:chunk offset="5484" nBytes="84" chunkPositionInArray="[1536,1024]" />
+                <dmrpp:chunk offset="5576" nBytes="100" chunkPositionInArray="[1536,1280]" />
+                <dmrpp:chunk offset="5684" nBytes="103" chunkPositionInArray="[1536,1536]" />
+            </dmrpp:chunks>
+        </UInt8>
+        <Attribute name="citation" type="String">
+            <Value>WGS 84 / UTM zone 15N</Value>
+        </Attribute>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geog_citation" type="String">
+            <Value>GCS Name = WGS 84|Datum = World Geodetic System 1984|Ellipsoid = WGS 84|Primem = Greenwich|</Value>
+        </Attribute>
+        <Attribute name="geog_ellipsoid" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="geog_geodetic_datum" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="geog_inv_flattening" type="Float64">
+            <Value>298.257223563</Value>
+        </Attribute>
+        <Attribute name="geog_prime_meridian_long" type="Float64">
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="geog_semi_major_axis" type="Float64">
+            <Value>6378137.0</Value>
+        </Attribute>
+        <Attribute name="geographic_type" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="proj_linear_units" type="Int64">
+            <Value>9001</Value>
+        </Attribute>
+        <Attribute name="projected_type" type="Int64">
+            <Value>32767</Value>
+        </Attribute>
+        <Attribute name="projection" type="Int64">
+            <Value>16015</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>70.0</Value>
+            <Value>70.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>499980.0</Value>
+            <Value>4700040.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+    </Group>
+</Dataset>

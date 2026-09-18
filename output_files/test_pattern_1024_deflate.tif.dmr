@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dataset xmlns="http://xml.opendap.org/ns/DAP/4.0#" xml:base="http://localhost:8001" dapVersion="4.0" dmrVersion="1.0" name="test_pattern_1024_deflate.tif">
+    <Group name="0">
+        <Dimension name="y" size="1024"/>
+        <Dimension name="x" size="1024"/>
+        <UInt8 name="0">
+            <Dim name="/0/y"/>
+            <Dim name="/0/x"/>
+        </UInt8>
+        <Attribute name="geog_angular_units" type="Int64">
+            <Value>9102</Value>
+        </Attribute>
+        <Attribute name="geographic_type" type="Int64">
+            <Value>4326</Value>
+        </Attribute>
+        <Attribute name="model_type" type="Int64">
+            <Value>2</Value>
+        </Attribute>
+        <Attribute name="raster_type" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+        <Attribute name="model_pixel_scale" type="Float64">
+            <Value>0.0009765625</Value>
+            <Value>0.0009765625</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="model_tiepoint" type="Float64">
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>0.0</Value>
+            <Value>-10.0</Value>
+            <Value>10.0</Value>
+            <Value>0.0</Value>
+        </Attribute>
+        <Attribute name="photometric_interpretation" type="Int64">
+            <Value>1</Value>
+        </Attribute>
+    </Group>
+</Dataset>
